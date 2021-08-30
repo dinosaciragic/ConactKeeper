@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://dinosaciragic:jebogadan@cluster0.blpwm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtSecret": "agreatbigsecret"
+}
