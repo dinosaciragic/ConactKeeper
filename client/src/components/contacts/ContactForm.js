@@ -13,12 +13,15 @@ const ContactForm = () => {
 
   const { name, email, phone, type } = contact;
 
+  /* example of form but without validation */
   const onChange = (e) =>
     setContact({ ...contact, [e.target.name]: e.target.value });
 
   const onSubmit = (e) => {
     e.preventDefault();
+
     contactContext.addContact(contact);
+
     setContact({
       name: '',
       email: '',
